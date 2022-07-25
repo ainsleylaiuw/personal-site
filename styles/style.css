@@ -1,0 +1,82 @@
+/* this is a CSS comment */
+html {
+    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: 'Roboto', sans-serif;
+    background-color: #1d1f21;
+    color: #acadad;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 10%;
+  color: #acadad;
+}
+.header_title {
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 2em;
+}
+.header_title a{
+  color: #acadad;
+  text-decoration: none;
+}
+.nav__links {
+  list-style: none;
+}
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover {
+  color: #0088a9;
+}
+button {
+  margin-left: 30px;
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    
+  }
+  
+p, li {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+  }
+body {
+  width: auto;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  /* border: 5px solid black;*/
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+  }
+.project_title {
+  font-weight: bold;
+  color: #acadad;
+  font-size: 3em;
+}
+.project_desc {
+  margin-left: 40px;
+}
